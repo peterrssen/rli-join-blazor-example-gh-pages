@@ -1,0 +1,71 @@
+/* /Pages/Home.razor.rz.scp.css */
+img[b-0leupdcnag] {
+    max-width: 100%;
+    height: auto;
+}
+
+button[b-0leupdcnag] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    max-width: 200px;
+}
+
+.flex-center[b-0leupdcnag] {
+    display: flex; 
+    gap: 10px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.flex-column-center[b-0leupdcnag] {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.size-limit[b-0leupdcnag] {
+    max-width: 350px;
+  }
+
+.box[b-0leupdcnag] {
+    border: 2px solid #000000; /* Blaue Umrandung */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+/* /Shared/GenericTable.razor.rz.scp.css */
+table[b-oh77grcz9c] {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th[b-oh77grcz9c] {
+    background-color: #0078D7;
+    color: white;
+    padding: 8px;
+    text-align: left;
+}
+
+td[b-oh77grcz9c] {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even)[b-oh77grcz9c] {
+    background-color: #f2f2f2;
+}
+
+tr:hover[b-oh77grcz9c] {
+    background-color: #cce5ff;
+}
