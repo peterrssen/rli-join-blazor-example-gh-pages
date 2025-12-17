@@ -45,21 +45,25 @@ button[b-0leupdcnag] {
     gap: 10px;
 }
 /* /Shared/GenericTable.razor.rz.scp.css */
+p[b-oh77grcz9c] {
+    padding: 0px;
+    font-weight: bold;
+    margin: 0px;
+}
 table[b-oh77grcz9c] {
     border-collapse: collapse;
     width: 100%;
 }
 
 th[b-oh77grcz9c] {
-    background-color: #0078D7;
     color: white;
-    padding: 8px;
+    padding: 6px;
     text-align: left;
 }
 
 td[b-oh77grcz9c] {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 6px;
 }
 
 tr:nth-child(even)[b-oh77grcz9c] {

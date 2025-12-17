@@ -1,12 +1,27 @@
 {
-    "users": [
-      { "id": 1, "name": "Alice", "email": "a@example.com" },
-      { "id": 2, "name": "Bob",   "email": "b@example.com" },
-      { "id": 3, "name": "Max",   "email": "b@example.com" }
-    ],
-    "orders": [
-      { "id": 100, "userId": 1, "product": "Laptop", "price": 1200 },
-      { "id": 101, "userId": 1, "product": "Mouse", "price": 100 },
-      { "id": 102, "userId": 2, "product": "Mouse",  "price": 25 }
-    ]
-  }
+  "tables": [
+    {
+      "name": "Tax Payers",
+      "columns": ["id", "first_name", "last_name", "mail"],
+      "colors": ["#ea6151","#ea6151","#ea6151","#ea6151"],
+      "rows": [
+        [1, "Alice", "Maier", "alice.maier@web.de"],
+        [2, "MacGyver", "Angus", "angust.macgyver@makeitwork.to"],
+        [3, "Max", "Power", "max.power@gmx.com"],
+        [4, "Malcom", "Reynolds", "mal.reynolds@serenity.de"]
+      ]
+    },
+    {
+      "name": "Income Taxes",
+      "columns": ["id", "tax_payer_id", "year", "refund_in_eu"],
+      "colors": ["#009879","#009879","#009879","#009879","#009879"],
+      "rows": [
+        [100, 1, 2023, 543],
+        [101, 1, 2024, 1249],
+        [102, 2, 2024, 1985],
+        [102, 3, 2024, 341],
+        [102, 5, 1962, 0]
+      ]
+    }
+  ]
+}
